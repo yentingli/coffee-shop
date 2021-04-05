@@ -13,3 +13,4 @@
 
 - [練習過程錄影](https://youtu.be/i5cVHdCbuM4)
 - [資料來源：結構咖啡所賣場資訊](https://myship.7-11.com.tw/ori_general/detail?id=GM2006231403574)
+- [參考資料：為你自己學 Ruby on Rails, 13 CRUD 分解動作 - 簡易票選系統實作（上）](https://railsbook.tw/chapters/13-crud-part-1.html)
