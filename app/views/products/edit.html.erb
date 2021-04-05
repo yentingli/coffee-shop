@@ -1,0 +1,23 @@
+<h1>編輯產品</h1>
+
+<%= form_for(@product) do |p| %>
+  <%= p.label :name, "產品名稱" %>
+  <%= p.text_field :name %> <br />
+
+  <%= p.label :source, "國家" %>
+  <%= p.text_field :source %> <br />
+
+  <%= p.label :area, "區域" %>
+  <%= p.text_field :area %> <br />
+
+  <%= p.label :stock, "庫存" %>
+  <%= p.text_field :stock %> <br />
+
+  <%= p.label :flavor, "風味" %>
+  <%= p.text_field :flavor %> <br />
+  
+  <%= p.submit %>
+<% end %>
+
+<br />
+<%= link_to '回產品列表', products_path %>

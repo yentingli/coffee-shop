@@ -1,0 +1,30 @@
+<h1>產品列表</h1>
+
+<%= link_to "新增產品", new_product_path %>
+
+<table>
+  <thead>
+    <tr>
+      <td>名稱</td>
+      <td>國家</td>
+      <td>地區</td>
+      <td>庫存</td>
+      <td>風味</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+    <tr>
+      <td><%= product.name %></td>
+      <td><%= product.source %></td>
+      <td><%= product.area %></td>
+      <td><%= product.stock %></td>
+      <td><%= product.flavor %></td>
+      <td>
+        <%= link_to "Edit", edit_product_path(product) %>
+        <%= link_to "Delet", product_path(product), method: "delete", data: {confirm: "確認刪除"} %></td>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
