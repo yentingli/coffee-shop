@@ -12,3 +12,4 @@
 | flavor   | 文字（text）    | 風味描述 |
 
 - [練習過程錄影](https://youtu.be/i5cVHdCbuM4)
+- [資料來源：結構咖啡所賣場資訊](https://myship.7-11.com.tw/ori_general/detail?id=GM2006231403574)
